@@ -1,0 +1,9 @@
+x = int(input("Enter the first integer: "))
+y = int(input("Enter the second integer: "))
+
+if x * y >= 1000:
+    result = x * y
+else:
+    result = x + y
+
+print("Result:", result)
